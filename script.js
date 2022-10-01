@@ -77,6 +77,5 @@ function starttimer(){                                // function to start the t
 
 function pause(){                                     //function to pause the timer on clicking the stop button
     clearInterval(interval)                               // and displaying the ran time
-
-    readings.innerHTML += `${hour}:${min}:${sec} <br>`;
+    readings.innerHTML += `${min}:${sec}:${msec} <br>`;
 }
