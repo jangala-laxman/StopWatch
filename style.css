@@ -1,0 +1,77 @@
+body{
+    margin:0px;
+    overflow:hidden;
+    
+}
+
+#counter{
+    text-align: center;
+    background:linear-gradient(white,rgb(136, 156, 154) );
+    background-repeat: no-repeat;
+}
+#time{
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    border:2px solid black;
+    text-align: center;
+    margin:0px auto ;
+    font-size:50px;
+    font-weight: 500;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* line-height: 250px; */
+}
+#time:hover{
+    background:linear-gradient(white,rgb(172, 195, 193) );
+
+}
+
+#reset{
+    width:100px;
+    height:50px;
+    background-color:yellow;
+    text-align: center;
+    margin:20px 30px;
+    border:hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#start{
+    width:100px;
+    height:50px;
+    background-color:green;
+    text-align: center;
+    margin:20px 30px;
+    border:hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+#stop{
+    width:100px;
+    height:50px;
+    background-color:red;
+    text-align: center;
+    border:hidden;
+    margin:20px 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#reset:hover{
+    cursor: pointer;
+    opacity:0.7;
+}
+#start:hover{
+    cursor: pointer;
+    opacity:0.7;
+    background: linear-gradient(blue, white,0.3);
+}
+#stop:hover{
+    cursor: pointer;
+    opacity:0.7;
+}
+#readings{
+    text-align: center;
+    font-size: 30px;
+}
